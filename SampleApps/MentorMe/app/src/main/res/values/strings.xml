@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Mentor Me</string>
+    <string name="robert_kiyosaki">Robert Kiyosaki</string>
+    <string name="more_authors">More Authors</string>
+    <string name="steven_dux">Steven Dux</string>
+    <string name="ricky_gutierrez">Ricky Gutierrez</string>
+    <string name="sandile_shezi">Sandile Shezi</string>
+    <string name="author_name">Author Name</string>
+    <string name="trader_name">Trader Name</string>
+    <string name="timothy_sykes">Timothy Sykes</string>
+    <string name="sanjeev_stephan">Sanjeev Stephan Murmu</string>
+    <string-array name="trader_default_list_items">
+        <item>About Me</item>
+        <item>Website</item>
+        <item>YouTube</item>
+        <item>Twitter</item>
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>YouTube</item>
+    </string-array>
+    <string-array name="tim_sykes_array">
+        <item>Timothy Sykes is a millionaire stock trader and entrepreneur. He is best known for earning $1.65 million by day trading penny stocks</item>
+        <item>https://www.timothysykes.com</item>
+        <item>Timothy Sykes</item>
+        <item>https://twitter.com/Steven1_994</item>
+        <item>https://www.facebook.com/stevenduxmentor/</item>
+        <item>https://www.instagram.com/stevendux_1994/</item>
+        <item>https://www.youtube.com/channel/UCQO8KW89UmUxltx8pQPrDRQ</item>
+    </string-array>
+    <string-array name="steven_dux_array">
+        <item>This is my personal story of turning 27K into 5M trading stocks.</item>
+        <item>https://www.stevenduxi.com</item>
+        <item>Steven Dux</item>
+        <item>https://twitter.com/Steven1_994</item>
+        <item>https://www.facebook.com/stevenduxmentor/</item>
+        <item>https://www.instagram.com/stevendux_1994/</item>
+        <item>https://www.youtube.com/channel/UCQO8KW89UmUxltx8pQPrDRQ</item>
+    </string-array>
+    <string-array name="ricky_gutierrez_array">
+        <item>Most of the wealth of Ricky Gutierrez has been earned by trading at penny stocks. However, he has also diversified into many other money-making ventures such as selling his course and making money as a YouTube star. He is estimated to have a net worth of about $1.3 million..</item>
+        <item>https://learnplanprofit.net/welcomepage</item>
+        <item>Ricky Gutierrez</item>
+        <item>https://twitter.com/Steven1_994</item>
+        <item>https://www.facebook.com/stevenduxmentor/</item>
+        <item>https://www.instagram.com/stevendux_1994/</item>
+        <item>https://www.youtube.com/channel/UCQO8KW89UmUxltx8pQPrDRQ</item>
+    </string-array>
+    <string-array name="sanjeev_stephan_array">
+        <item>Most of the wealth of Sanjeev Stephan Murmu has been earned by trading at penny stocks. However, he has also diversified into many other money-making ventures such as selling his course and making money as a YouTube star. He is estimated to have a net worth of about $1.3 million..</item>
+        <item>https://etechwisdom.com</item>
+        <item>ETechWisdom</item>
+        <item>https://twitter.com/Steven1_994</item>
+        <item>https://www.facebook.com/stevenduxmentor/</item>
+        <item>https://www.instagram.com/stevendux_1994/</item>
+        <item>https://www.youtube.com/channel/UCQO8KW89UmUxltx8pQPrDRQ</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

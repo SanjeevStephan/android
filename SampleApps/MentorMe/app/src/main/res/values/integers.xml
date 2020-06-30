@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hello">3</integer>
+    <integer-array name="trader_default_image_list">
+        <item>@drawable/stock_market</item>
+        <item>@drawable/website_logo</item>
+        <item>@drawable/youtube_logo</item>
+    </integer-array>
+</resources>

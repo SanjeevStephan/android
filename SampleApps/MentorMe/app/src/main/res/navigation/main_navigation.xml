@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/quotesLists"
+        android:name="com.sanjeev.stephan.murmu.mentorme.QuotesLists"
+        android:label="QuotesLists" >
+        <action
+            android:id="@+id/action_quotesLists_to_displayWebPage"
+            app:destination="@id/displayWebPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayWebPage"
+        android:name="com.sanjeev.stephan.murmu.mentorme.DisplayWebPage"
+        android:label="DisplayWebPage"
+        tools:layout="@layout/fragment_display_web_page"
+        />
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.sanjeev.stephan.murmu.mentorme.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"
+        >
+        <action
+            android:id="@+id/action_home_fragment_to_allAuthors"
+            app:destination="@id/allAuthors" />
+        <action
+            android:id="@+id/action_home_fragment_to_authorTemplate"
+            app:destination="@id/authorTemplate" />
+        <action
+            android:id="@+id/action_home_fragment_to_traderTemplate"
+            app:destination="@id/traderTemplate" />
+    </fragment>
+    <fragment
+        android:id="@+id/allAuthors"
+        android:name="com.sanjeev.stephan.murmu.mentorme.AllAuthors"
+        android:label="AllAuthors" />
+    <fragment
+        android:id="@+id/authorTemplate"
+        android:name="com.sanjeev.stephan.murmu.mentorme.AuthorTemplate"
+        android:label="AuthorTemplate"
+        tools:layout="@layout/fragment_author_templates"
+        >
+        <action
+            android:id="@+id/action_authorTemplate_to_quotesLists"
+            app:destination="@id/quotesLists"
+            tools:layout="@layout/fragment_author_templates"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/traderTemplate"
+        android:name="com.sanjeev.stephan.murmu.mentorme.TraderTemplate"
+        android:label="TraderTemplate" >
+        <action
+            android:id="@+id/action_traderTemplate_to_displayWebPage"
+            app:destination="@id/displayWebPage" />
+        <action
+            android:id="@+id/action_traderTemplate_to_fragMyStory"
+            app:destination="@id/fragMyStory" />
+        <action
+            android:id="@+id/action_traderTemplate_to_android_ExpandableWebView"
+            app:destination="@id/android_ExpandableWebView" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragMyStory"
+        android:name="com.sanjeev.stephan.murmu.mentorme.FragMyStory"
+        android:label="fragment_frag_my_story"
+        tools:layout="@layout/fragment_frag_my_story" />
+    <fragment
+        android:id="@+id/android_ExpandableWebView"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_ExpandableWebView"
+        android:label="Android_ExpandableWebView" />
+</navigation>
