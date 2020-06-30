@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/bg_gray"
+    tools:context=".MyFragments.AllDevicesFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/device_frame_layout_bottom">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:id="@+id/fragment_container_all_devices_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <fragment
+                android:id="@+id/fragment"
+                android:name="com.sanjeev.stephan.murmu.ctsmartnet.smarthome.MyFragments.LightBulbFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <fragment
+                android:id="@+id/fragment2"
+                android:name="com.sanjeev.stephan.murmu.ctsmartnet.smarthome.MyFragments.FanFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <fragment
+                android:id="@+id/fragment3"
+                android:name="com.sanjeev.stephan.murmu.ctsmartnet.smarthome.MyFragments.PlugSocketFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/id_device_add_new_relative_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/device_add_relative_layout_padding"
+                android:layout_marginTop="@dimen/device_add_margin_top"
+                android:layout_marginBottom="@dimen/device_add_new_margin_bottom">
+                <ImageView
+                    android:id="@+id/not_in_use_device_add_image_icon"
+                    android:layout_width="@dimen/device_add_new_image_icon"
+                    android:layout_height="@dimen/device_add_new_image_icon"
+                    android:src="@android:drawable/ic_input_add"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_new_device"
+                    android:layout_toEndOf="@id/not_in_use_device_add_image_icon"
+                    android:layout_toRightOf="@id/not_in_use_device_add_image_icon"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
