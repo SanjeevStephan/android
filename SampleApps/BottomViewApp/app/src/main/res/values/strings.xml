@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomViewApp</string>
+
+    <string name="title_frag_a">Fragment A</string>
+    <string name="title_frag_b">Fragment B</string>
+    <string name="title_frag_c">Fragment B</string>
+</resources>
