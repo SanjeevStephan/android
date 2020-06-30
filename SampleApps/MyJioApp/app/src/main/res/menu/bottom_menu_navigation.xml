@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_nav_home"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/id_nav_recharge"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="@string/title_recharge" />
+    <item
+        android:id="@+id/id_nav_voucher"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="@string/title_my_vouchers" />
+    <item
+        android:id="@+id/id_nav_coupons"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/title_coupons" />
+    <item
+        android:id="@+id/id_nav_jio_care"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/title_jiocare" />
+</menu>

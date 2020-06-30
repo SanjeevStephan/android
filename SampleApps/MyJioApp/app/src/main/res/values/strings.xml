@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyJioApp</string>
+    <string name="str_my_account">My Account</string>
+    <string name="title_home">Home</string>
+    <string name="title_recharge">Recharge</string>
+    <string name="title_my_vouchers">My Vouchers</string>
+    <string name="title_coupons">Coupons</string>
+    <string name="title_jiocare">JioCare</string>
+
+</resources>
