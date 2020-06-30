@@ -1,0 +1,411 @@
+package com.sanjeev.stephan.murmu.kotlinbeginnercodes
+
+/**
+ * @author Sanjeev Stephan Murmu
+ * @since 12-Jan-20
+ */
+class TopLevelArray {
+
+    enum class What_Do_You_Want {
+        TITLE,DESCRIPTION,IMAGE,BOOLEAN
+    }
+
+
+    fun getArrayList(whatDoYouWant: What_Do_You_Want) : Array<Any> {
+
+        when (whatDoYouWant) {
+            What_Do_You_Want.TITLE -> return arrayOf("hello", "htere")
+            What_Do_You_Want.DESCRIPTION -> return arrayOf("hi", "there")
+            What_Do_You_Want.BOOLEAN -> return arrayOf(false, true)
+            What_Do_You_Want.IMAGE -> return arrayOf(R.drawable.ic_adb_green,R.drawable.ic_adb_green)
+        }
+
+    }
+
+    fun getList(): Array<String> {
+        val myArrayList = arrayOf(
+            "Android APIs",
+            "Android LifeCycle",
+            "Android Input|Output",
+            "Access System",
+            "AdMob Banner Ads",
+            "AdMob Interstitial Ads",
+            "App Chooser",
+            "Button",
+            "Bottom-Sheet",
+            "Change Android Title",//change android title
+            "CardView",
+            "Check Device-Orientation",
+            "Change Screen-Orientation",
+            "Check Internet Connectivity",
+            "Dialog Alert",
+            "Dialog Input",
+            "Dialog Confirmation",
+            "Dialog Progress",
+            "Fragment",
+            "Floating Text",
+            "Firebase",
+            "File Handler",
+            "Gesture",
+            "Intent Explicit",
+            "Intent Implicit",
+            "JSON Parsing using URL",
+            "Linkify",
+            "ListView",
+            "ListView Custom",
+            "List SdCard Directories",
+            "Map Fixed Location",
+            "Map Current Location",
+            "Make and Delete Directory",
+            "Notification",
+            "Option Menu",
+            "Fragment Communication",
+            "Picker Data & Timer",
+            "Popup Menu",
+            "Player Audio",
+            "Player Video",
+            "Remove Action-Bar",
+            "Read Text From Assets",
+            "RecyclerView",
+            "Sharing Intent",
+            "Shared Preferences",
+            "Start New Activity",
+            "SearchView with Text-Filter",
+            "Spinner",
+            "SnackBar",
+            "Secret Developer Option",
+            "SQLite Database",
+            "Storage Internal",
+            "Storage External",
+            "Select Image From Gallery",
+            "TextClock",
+            "Text-Change Listener",
+            "Timer",
+            "Toast",
+            "Toast Custom",
+            "TabLayout -> FrameLayout",
+            "TabLayout -> ViewPager",
+            "Vibrator",
+            "WebView",
+            "Web Services",
+            "WiFi Manager",
+            "XMLPullParser",
+            "Expandable List View",
+            "Show or Hide Password",
+            "Expandable WebView List"
+
+            )
+        return myArrayList
+    }
+
+    fun getDescList(): Array<String> {
+        val myArrayList = arrayOf(
+                "Android APIs",
+                "Android LifeCycle",
+                "Display Input TextViews",
+                "Call | Dialer | Camera | WebPage",
+                "AdMob Banner Ads",
+                "AdMob Interstitial Ads",
+                "App Chooser",
+                "Button",
+                "Bottom-Sheet",
+                "Change Android Title",//change android title
+                "CardView",
+                "Check Device-Orientation",
+                "Change Screen-Orientation",
+                "Check Internet Connectivity",
+                "Dialog Alert",
+                "Dialog Input",
+                "Dialog Confirmation",
+                "Dialog Progress",
+                "Fragment",
+                "Floating Text",
+                "Firebase",
+                "Read and Write Text Files",
+                "Gesture",
+                "Intent Explicit",
+                "Intent Implicit",
+                "JSON Parsing using URL",
+                "Linkify",
+                "ListView",
+                "ListView Custom",
+                "List SdCard Directories",
+                "Map Fixed Location",
+                "Map Current Location",
+                "Make and Delete Directory",
+                "Notification",
+                "Option Menu",
+                "Pass Data Between Fragments",
+                "Picker Data & Timer",
+                "Popup Menu",
+                "Player Audio",
+                "Player Video",
+                "Remove Action-Bar",
+                "Read Text From Assets",
+                "RecyclerView",
+                "Sharing Intent using App Package",
+                "Shared Preferences",
+                "Start New Activity",
+                "SearchView with Text-Filter",
+                "Spinner",
+                "SnackBar",
+                "Secret Developer Option",
+                "SQLite Database",
+                "Storage Internal",
+                "Storage External",
+                "Select Image From Gallery",
+                "TextClock",
+                "Text-Change Listener",
+                "Timer",
+                "Toast",
+                "Toast Custom",
+                "TabLayout with FrameLayout",
+                "TabLayout with ViewPager",
+                "Vibrator",
+                "WebView",
+                "Web Services",
+                "WiFi Manager",
+                "XMLPullParser",
+                "Expandable List View",
+                "Show or Hide Password",
+                "Expandable WebView List"
+
+        )
+        return myArrayList
+    }
+
+    fun setURL(websiteName: String,link: String = ""): String {
+        return "http://www.$websiteName.com/$link"
+    }
+
+    fun getLinkList(): Array<String> {
+        val myArrayList = arrayOf(
+                "Android APIs",
+                setURL("javatpoint","kotlin-android-popup-menu"),
+                setURL("github"),
+                setURL("github"),
+                "AdMob Banner Ads",
+                "AdMob Interstitial Ads",
+                "App Chooser",
+                "Button",
+                "Bottom-Sheet",
+                "Change Android Title",//change android title
+                "CardView",
+                "Check Device-Orientation",
+                "Change Screen-Orientation",
+                "Check Internet Connectivity",
+                "Dialog Alert",
+                "Dialog Input",
+                "Dialog Confirmation",
+                "Dialog Progress",
+                "Fragment",
+                "Floating Text",
+                "Firebase",
+                "Read and Write Text Files",
+                "Gesture",
+                "Intent Explicit",
+                "Intent Implicit",
+                "JSON Parsing using URL",
+                "Linkify",
+                "ListView",
+                "ListView Custom",
+                "List SdCard Directories",
+                "Map Fixed Location",
+                "Map Current Location",
+                "Make and Delete Directory",
+                "Notification",
+                "Option Menu",
+                "Pass Data Between Fragments",
+                "Picker Data & Timer",
+                "Popup Menu",
+                "Player Audio",
+                "Player Video",
+                "Remove Action-Bar",
+                "Read Text From Assets",
+                "RecyclerView",
+                "Sharing Intent using App Package",
+                "Shared Preferences",
+                "Start New Activity",
+                "SearchView with Text-Filter",
+                "Spinner",
+                "SnackBar",
+                "Secret Developer Option",
+                "SQLite Database",
+                "Storage Internal",
+                "Storage External",
+                "Select Image From Gallery",
+                "TextClock",
+                "Text-Change Listener",
+                "Timer",
+                "Toast",
+                "Toast Custom",
+                "TabLayout with FrameLayout",
+                "TabLayout with ViewPager",
+                "Vibrator",
+                "WebView",
+                "Web Services",
+                "WiFi Manager",
+                "XMLPullParser",
+                "Expandable List View",
+                "Show or Hide Password",
+                "Expandable WebView List"
+
+        )
+        return myArrayList
+    }
+
+
+
+    fun getBooleanList(): Array<Boolean> {
+        val myArrayList = arrayOf(
+                false, //"Android APIs",
+                false,// "Android LifeCycle",
+                true,//"Android EditText and TextView",
+                true,//"Access Call,Dialer,Camera & WebPage",
+                false,//"AdMob Banner Ads",
+                false,//"AdMob Interstitial Ads",
+                false,//"App Chooser",
+                true,//"Button",
+                false,//"Bottom-Sheet",
+                false,//change android title
+                false,//"CardView",
+                false,//"Check Device-Orientation",
+                false,//"Change Screen-Orientation",
+                false,//"Check Internet Connectivity",
+                true,//"Dialog Alert",
+                true,//"Dialog Input",
+                false,//"Dialog Confirmation",
+                false,//"Dialog Progress",
+                false,//"Fragment",
+                false,// "Floating Text",
+                false,// "Firebase",
+                false,// "File Handler - Read and Write Text",
+                false,// "Gesture",
+                false,// "Intent Explicit",
+                false,// "Intent Implicit",
+                false,// "JSON Parsing using URL",
+                false,// "Linkify",
+                false,// "ListView",
+                false,// "ListView Custom",
+                false,// "List SdCard Directories",
+                false,// "Map Fixed Location",
+                false,// "Map Current Location",
+                false,// "Make and Delete Directory",
+                true,// "Notification",
+                false,//  "Option Menu",
+                true, // Pass Data Between Fragments
+                false,// "Picker Data & Timer",
+                true,// "Popup Menu",
+                false,//"Player Audio",
+                false,//"Player Video",
+                false,// "Remove Action-Bar",
+                false,// "Read Text From Assets",
+                true,//"RecyclerView",
+                false,// "Sharing Intent using App Package",
+                false,// "Shared Preferences",
+                true,// "Start New Activity",
+                false,// "SearchView with Text-Filter",
+                true,// "Spinner",
+                false,// "SnackBar",
+                false,// "Secret Developer Option",
+                true,// "SQLite Database",
+                false,// "Storage Internal",
+                false,// "Storage External",
+                false,// "Select Image From Gallery",
+                false,//"TextClock",
+                false,// "Text-Change Listener",
+                false,// "Timer",
+                false,// "Toast",
+                false,//"Toast Custom",
+                false,// "TabLayout with FrameLayout",
+                false,//"TabLayout with ViewPager",
+                false,//"Vibrator",
+                true,//"WebView",
+                false,//"Web Services",
+                false,//"WiFi Manager",
+                false, // "XMLPullParser"
+                true, //Expandable List View
+                true, //Show or Hide Password
+                true //Expandable WebView List
+        )
+        return myArrayList
+    }
+
+    fun getImgList(): Array<Int> {
+        val myArrayList = arrayOf(
+            R.drawable.untick_sysmbol, //"Android APIs",
+            R.drawable.untick_sysmbol,// "Android LifeCycle",
+            R.drawable.tick_symbol,//"Android EditText and TextView",
+            R.drawable.tick_symbol,//"Access Call,Dialer,Camera & WebPage",
+            R.drawable.untick_sysmbol,//"AdMob Banner Ads",
+            R.drawable.untick_sysmbol,//"AdMob Interstitial Ads",
+            R.drawable.untick_sysmbol,//"App Chooser",
+            R.drawable.tick_symbol,//"Button",
+            R.drawable.untick_sysmbol,//"Bottom-Sheet",
+            R.drawable.untick_sysmbol,//change android title
+            R.drawable.untick_sysmbol,//"CardView",
+            R.drawable.untick_sysmbol,//"Check Device-Orientation",
+            R.drawable.untick_sysmbol,//"Change Screen-Orientation",
+            R.drawable.untick_sysmbol,//"Check Internet Connectivity",
+            R.drawable.tick_symbol,//"Dialog Alert",
+            R.drawable.tick_symbol,//"Dialog Input",
+            R.drawable.untick_sysmbol,//"Dialog Confirmation",
+            R.drawable.untick_sysmbol,//"Dialog Progress",
+            R.drawable.untick_sysmbol,//"Fragment",
+            R.drawable.untick_sysmbol,// "Floating Text",
+            R.drawable.untick_sysmbol,// "Firebase",
+            R.drawable.untick_sysmbol,// "File Handler - Read and Write Text",
+            R.drawable.untick_sysmbol,// "Gesture",
+            R.drawable.untick_sysmbol,// "Intent Explicit",
+            R.drawable.untick_sysmbol,// "Intent Implicit",
+            R.drawable.untick_sysmbol,// "JSON Parsing using URL",
+            R.drawable.untick_sysmbol,// "Linkify",
+            R.drawable.tick_symbol,// "ListView",
+            R.drawable.tick_symbol,// "ListView Custom",
+            R.drawable.untick_sysmbol,// "List SdCard Directories",
+            R.drawable.untick_sysmbol,// "Map Fixed Location",
+            R.drawable.untick_sysmbol,// "Map Current Location",
+            R.drawable.untick_sysmbol,// "Make and Delete Directory",
+            R.drawable.tick_symbol,   // "Notification",
+            R.drawable.untick_sysmbol,//"Option Menu",
+            R.drawable.tick_symbol,   // "Pass Data Between Fragments",
+            R.drawable.untick_sysmbol,// "Picker Data & Timer",
+            R.drawable.untick_sysmbol,// "Popup Menu",
+            R.drawable.untick_sysmbol,//"Player Audio",
+            R.drawable.untick_sysmbol,//"Player Video",
+            R.drawable.untick_sysmbol,// "Remove Action-Bar",
+            R.drawable.untick_sysmbol,// "Read Text From Assets",
+            R.drawable.tick_symbol,//"RecyclerView",
+            R.drawable.untick_sysmbol,// "Sharing Intent using App Package",
+            R.drawable.untick_sysmbol,// "Shared Preferences",
+            R.drawable.tick_symbol,// "Start New Activity",
+            R.drawable.untick_sysmbol,// "SearchView with Text-Filter",
+            R.drawable.tick_symbol,// "Spinner",
+            R.drawable.untick_sysmbol,// "SnackBar",
+            R.drawable.untick_sysmbol,// "Secret Developer Option",
+            R.drawable.tick_symbol,// "SQLite Database",
+            R.drawable.untick_sysmbol,// "Storage Internal",
+            R.drawable.untick_sysmbol,// "Storage External",
+            R.drawable.untick_sysmbol,// "Select Image From Gallery",
+            R.drawable.untick_sysmbol,//"TextClock",
+            R.drawable.untick_sysmbol,// "Text-Change Listener",
+            R.drawable.untick_sysmbol,// "Timer",
+            R.drawable.tick_symbol,// "Toast",
+            R.drawable.untick_sysmbol,//"Toast Custom",
+            R.drawable.untick_sysmbol,// "TabLayout with FrameLayout",
+            R.drawable.untick_sysmbol,//"TabLayout with ViewPager",
+            R.drawable.untick_sysmbol,//"Vibrator",
+            R.drawable.tick_symbol,//"WebView",
+            R.drawable.untick_sysmbol,//"Web Services",
+            R.drawable.untick_sysmbol,//"WiFi Manager",
+            R.drawable.untick_sysmbol, // "XMLPullParser"
+            R.drawable.tick_symbol,
+            R.drawable.tick_symbol,
+            R.drawable.tick_symbol
+
+
+        )
+        return myArrayList
+    }
+
+}
