@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmartApp</string>
+     <string-array name="relays_list">
+        <item>Please Select Relay Number!</item>
+        <item>Relay 1</item>
+        <item>Relay 2</item>
+        <item>Relay 3</item>
+        <item>Relay 4</item>
+        <item>Relay 5</item>
+        <item>Relay 6</item>
+        <item>Relay 7</item>
+        <item>Relay 8</item>
+        <item>Relay 9</item>
+        <item>Relay 10</item>
+    </string-array>
+</resources>
