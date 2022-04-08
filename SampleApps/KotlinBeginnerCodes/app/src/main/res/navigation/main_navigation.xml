@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Home"
+        android:label="FragmentHome"
+        tools:layout="@layout/fragment_home"
+        >
+        <action
+            android:id="@+id/action_fragmentHome_to_fragment_Notification_Category"
+            app:destination="@id/fragment_Notification_Category" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_SenderFragment"
+            app:destination="@id/android_SenderFragment" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_Button"
+            app:destination="@id/android_Button" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragment_EditText_TextView"
+            app:destination="@id/fragment_EditText_TextView" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_simpleNotification"
+            app:destination="@id/android_simpleNotification" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_WebView"
+            app:destination="@id/android_WebView" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_ExpandableListView"
+            app:destination="@id/android_ExpandableListView" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_Spinner"
+            app:destination="@id/android_Spinner" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_Access_URL_WhatsApp"
+            app:destination="@id/android_Access_URL_WhatsApp" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_Show_Hide_Password"
+            app:destination="@id/android_Show_Hide_Password" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_ExpandableWebView"
+            app:destination="@id/android_ExpandableWebView" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_RecyclerView"
+            app:destination="@id/android_RecyclerView" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_SQLiteDatabase"
+            app:destination="@id/android_SQLiteDatabase" />
+        <action
+            android:id="@+id/action_fragmentHome_to_android_PopupMenu"
+            app:destination="@id/android_PopupMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_EditText_TextView"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_EditText_TextView"
+        android:label="Fragment_EditText_TextView"
+        tools:layout="@layout/fragment_edittext_textview"
+        />
+    <fragment
+        android:id="@+id/android_Button"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_Button"
+        android:label="Android_Button"
+        tools:layout="@layout/fragment_button"
+        />
+    <fragment
+        android:id="@+id/android_WebView"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_WebView"
+        android:label="Android_WebView"
+        tools:layout="@layout/fragment_webview"
+        />
+    <fragment
+        android:id="@+id/android_simpleNotification"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_Simple_Notification"
+        android:label="Android_Notification"
+        tools:layout="@layout/fragment_simple_notification"
+        />
+    <fragment
+        android:id="@+id/fragment_Notification_Category"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Fragment_Notification_Category"
+        android:label="Fragment_Notification_Category"
+        tools:layout="@layout/fragment_notification"
+        />
+    <fragment
+        android:id="@+id/android_ReceiverFragment"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_ReceiverFragment"
+        android:label="Android_ReceiverFragment"
+        tools:layout="@layout/fragment_receive_data"
+        />
+    <fragment
+        android:id="@+id/android_SenderFragment"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_SenderFragment"
+        android:label="Android_SenderFragment"
+        tools:layout="@layout/fragment_send_data"
+        >
+        <action
+            android:id="@+id/action_android_SenderFragment_to_android_ReceiverFragment"
+            app:destination="@id/android_ReceiverFragment"
+            app:popUpTo="@+id/fragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/android_ExpandableListView"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_ExpandableListView"
+        android:label="Android_ExpandableListView" />
+    <fragment
+        android:id="@+id/android_Spinner"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_Spinner"
+        android:label="fragment_android__spinner"
+        tools:layout="@layout/fragment_android__spinner" />
+    <fragment
+        android:id="@+id/android_Access_URL_WhatsApp"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_Access_URL_WhatsApp"
+        android:label="fragment_android__access__url__whats_app"
+        tools:layout="@layout/fragment_android__access__url__whats_app" />
+    <fragment
+        android:id="@+id/android_Show_Hide_Password"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_Show_Hide_Password"
+        android:label="fragment_android__show__hide__password"
+        tools:layout="@layout/fragment_android__show__hide__password" />
+    <fragment
+        android:id="@+id/android_ExpandableWebView"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_ExpandableWebView"
+        android:label="Android_ExpandableWebView" />
+    <fragment
+        android:id="@+id/android_RecyclerView"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_RecyclerView"
+        android:label="Android_RecyclerView" />
+    <fragment
+        android:id="@+id/android_SQLiteDatabase"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_SQLiteDatabase"
+        android:label="Android_SQLiteDatabase" />
+    <fragment
+        android:id="@+id/android_PopupMenu"
+        android:name="com.sanjeev.stephan.murmu.kotlinbeginnercodes.Android_PopupMenu"
+        android:label="fragment_android_popup_menu"
+        tools:layout="@layout/fragment_android_popup_menu" />
+</navigation>
