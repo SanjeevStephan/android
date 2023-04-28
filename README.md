@@ -26,14 +26,14 @@ Default Android Studio Installation Location
 Android Basics with Compose is a self-paced, online course on how to build Android apps using the latest best practices. It covers the basics of building apps with Jetpack Compose, the recommended toolkit for building user interfaces on Android.
 
 ### Android Basics Units
-| Unit | Title |
-|--|-------|
-|1| Your First Android App |
-|2| Building app UI |
-|3| Display lists and use Material Design |
-|4| Navigation and app architecture | 
-|5|Connect to the Internet |
-|6| Data Persistence|
-|7| WorkManager |
-|8| Views and Compose | 
+| Unit | Title | |
+|--|-------|----|
+|1| Your First Android App | Learn Programming basics and create your first Android app. 
+|2| Building app UI | Continue learning the fundamentals of Kotlin, and start building more interactive apps. 
+|3| Display lists and use Material Design | Build apps that display a list of data and learn how to make your apps more beautiful with Material Design. 
+|4| Navigation and app architecture | Learn the best practices of app architecture to build more complex apps. Enhance your users' ability to navigate across, into and back out from the various screens within your app for a consistent and predictable user experience.
+|5|Connect to the Internet |  Use Kotlin coroutines to perform multiple tasks at once, and learn about HTTP and REST to get data from the internet using Retrofit. Then use the Coil library to display images in your app.
+|6| Data Persistence| Learn how to store data locally on the device and keep your apps working through any network disruptions for a smooth and consistent user experience.
+|7| WorkManager | Use Android Jetpack's WorkManager API to schedule necessary background work, such as data backups or fresh content downloads, that keeps running even if the app exits or the device restarts.
+|8| Views and Compose | Learn how to use Compose and the older UI toolkit based on Views side-by-side in the same app. In this unit, you will learn interoperability APIs and best practices to add a new feature to an existing app in Views, use an existing library that uses Views, or use a UI component that is not yet available in Compose.
 
