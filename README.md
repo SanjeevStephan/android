@@ -1,14 +1,14 @@
 # Android
 
-# What you'll need to begin
+## What you'll need to begin
 
-## Recommended
+### Recommended
 * Computer
 * Internet Connection
 * Basic Computer Literacy
 * Basic Math Skills
 
-## Optional
+### Optional
 * Access to Android Phone or Tablet
 * Familarity with using Android Apps
 
