@@ -29,4 +29,11 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
 | Unit | Title |
 |--|-------|
 |1| Your First Android App |
+|2| Building app UI |
+|3| Display lists and use Material Design |
+|4| Navigation and app architecture | 
+|5|Connect to the Internet |
+|6| Data Persistence|
+|7| WorkManager |
+|8| Views and Compose | 
 
