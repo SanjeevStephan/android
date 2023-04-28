@@ -22,10 +22,10 @@ Screen resolution |	1280 x 800	| 1920 x 1080
 Default Android Studio Installation Location 
 > C:\Program Files\Android\Android Studio
 
-# Learn Android 101
+# Learn Android 101 | [Start Course](https://developer.android.com/courses/android-basics-compose/course)
 Android Basics with Compose is a self-paced, online course on how to build Android apps using the latest best practices. It covers the basics of building apps with Jetpack Compose, the recommended toolkit for building user interfaces on Android.
 
-### Android Basics Units
+### Android Basics Units 
 | Unit | Title | |
 |--|-------|----|
 |1| Your First Android App | Learn Programming basics and create your first Android app. 
