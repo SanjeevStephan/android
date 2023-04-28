@@ -21,3 +21,12 @@ Screen resolution |	1280 x 800	| 1920 x 1080
  4. For Installing Android Studio on other OS. Refer to this [Installation Guide](https://developer.android.com/studio/install)
 Default Android Studio Installation Location 
 > C:\Program Files\Android\Android Studio
+
+# Learn Android 101
+Android Basics with Compose is a self-paced, online course on how to build Android apps using the latest best practices. It covers the basics of building apps with Jetpack Compose, the recommended toolkit for building user interfaces on Android.
+
+### Android Basics Units
+| Unit | Title |
+|--|-------|
+|1| Your First Android App |
+
