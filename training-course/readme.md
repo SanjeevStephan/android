@@ -52,6 +52,13 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
   * Add an app bar to the app and modify the app theme.
   * Use Material Design to build modern and intuitive user interfaces, using colors, shapes and typography.
 
+| Chapters | Description |
+|-------|-------|
+| More Kotlin fundamentals | Learn additional Kotlin programming concepts that will enable you to build more interesting and fun Android apps. |
+| Build a scrollable list | Create an app that displays a scrollable list of text and images using Compose. |
+| Build beautiful apps | Make your apps more beautiful and intuitive to use with Material Design, animations, and accessibility best practices. |
+
+
 ### Unit 4 :  Navigation and app architecture
 * Learn the best practices of app architecture to build more complex apps. Enhance your users' ability to navigate across, into and back out from the various screens within your app for a consistent and predictable user experience.
    * Explain activities and their lifecycles.
@@ -62,6 +69,13 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
    * Understand what responsive UI is.
    * Use window class sizes to build for different screen sizes.
    * Add a navigation drawer to an app.
+ 
+| Chapters | Description |
+|-------|-------|
+| Architecture Components | Learn about app architecture and how to use ViewModels, UI State, and StateFlow to build more complex apps. |
+| Navigation in Jetpack Compose | Learn how to use the Navigation component to build more complex apps with more screens and how to navigate and pass data between different composables.|
+| Adapt for different screen sizes | In this pathway, you'll learn how to adapt your app to different screen sizes and provide a better user experience, as well as how to test your adaptive UI. |
+
 
 ### Unit 5 :  Connect to the Internet
  * Use Kotlin coroutines to perform multiple tasks at once, and learn about HTTP and REST to get data from the internet using Retrofit. Then use the Coil library to display images in your app.
@@ -71,6 +85,11 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
    * Use Retrofit to retrieve data from a remote server.
    * Load and display images using the Coil library.
    * Implement dependency injection to decouple the classes, making it easier to test, maintain, and scale the app.
+
+| Chapters | Description |
+|-------|-------|
+| Get data from the internet | Implement coroutines to perform tasks concurrently without blocking the app, and learn about HTTP and REST to get data from the internet. |
+| Load and display images from the internet | Apply architecture best practices to the app and use Coil to download and display images. |
 
 ### Unit 6 :  Data Persistence
  * Learn how to store data locally on the device and keep your apps working through any network disruptions for a smooth and consistent user experience.
