@@ -1,5 +1,17 @@
 # Android
 
+# What you'll need to begin
+
+## Recommended
+* Computer
+* Internet Connection
+* Basic Computer Literacy
+* Basic Math Skills
+
+## Optional
+* Access to Android Phone or Tablet
+* Familarity with using Android Apps
+
 ## Install Android Studio
 Set up Android Studio in just a few clicks.
 1.  First, check the system requirements. Then download the <a href="https://developer.android.com/studio">latest version of Android Studio</a>.
