@@ -25,6 +25,8 @@ Default Android Studio Installation Location
 # Learn Android 101 | [Start Course](https://developer.android.com/courses/android-basics-compose/course)
 Android Basics with Compose is a self-paced, online course on how to build Android apps using the latest best practices. It covers the basics of building apps with Jetpack Compose, the recommended toolkit for building user interfaces on Android.
 
+[Compose](https://developer.android.com/jetpack/compose) is Android's modern toolkit for building native UI, which simplifies and accelerates UI development. It requires less code to implement a UI compared to the Android View system, which makes your app easier to maintain.
+
 ### Android Basics Units 
 | Unit | Title | |
 |--|-------|----|
