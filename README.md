@@ -39,3 +39,7 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
 |7| WorkManager | Use Android Jetpack's WorkManager API to schedule necessary background work, such as data backups or fresh content downloads, that keeps running even if the app exits or the device restarts.
 |8| Views and Compose | Learn how to use Compose and the older UI toolkit based on Views side-by-side in the same app. In this unit, you will learn interoperability APIs and best practices to add a new feature to an existing app in Views, use an existing library that uses Views, or use a UI component that is not yet available in Compose.
 
+# Resources
+1. [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+
+
