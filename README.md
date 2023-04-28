@@ -39,7 +39,7 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
 
 [Compose](https://developer.android.com/jetpack/compose) is Android's modern toolkit for building native UI, which simplifies and accelerates UI development. It requires less code to implement a UI compared to the Android View system, which makes your app easier to maintain.
 
-### Android Basics Units 
+### Android Basics Units | [See Chapter Overview](https://github.com/SanjeevStephan/android/tree/master/training-course)
 | Unit | Title | |
 |--|-------|----|
 |1| [Your First Android App](https://developer.android.com/courses/android-basics-compose/unit-1) | Learn Programming basics and create your first Android app. 
