@@ -14,3 +14,6 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
 * Basic computer skills
 * Basic math skills
 * A computer that can run Android Studio (see system requirements) | (Optional) Android device
+
+
+
