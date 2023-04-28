@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!--  Sample Device Fragment IDs-->
-    <item type="id" name="id_sample_device_title"/>
-    <item type="id" name="hello_id"/>
-    <item type="id" name="id_sample_device_no_device_text"/>
-    <item type="id" name="fragment_edit_text"/>
-</resources>
