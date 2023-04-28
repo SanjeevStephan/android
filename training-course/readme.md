@@ -16,7 +16,7 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
 * A computer that can run Android Studio (see system requirements) | (Optional) Android device
 
 ## Android Basics Units
-### Unit 1 : [Your first Android app](https://developer.android.com/courses/android-basics-compose/unit-1) 
+### Unit 1 : Your first Android app | [Let's Learn](https://github.com/SanjeevStephan/android/tree/master/training-course/unit-1-introduction-to-kotlin) 
 * Learn programming basics and create your first Android app.
   * Write simple Kotlin programs that display text output.
   * Download and install Android Studio.
