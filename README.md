@@ -28,7 +28,7 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
 ### Android Basics Units 
 | Unit | Title | |
 |--|-------|----|
-|1| Your First Android App | Learn Programming basics and create your first Android app. 
+|1| [Your First Android App](https://developer.android.com/courses/android-basics-compose/unit-1) | Learn Programming basics and create your first Android app. 
 |2| Building app UI | Continue learning the fundamentals of Kotlin, and start building more interactive apps. 
 |3| Display lists and use Material Design | Build apps that display a list of data and learn how to make your apps more beautiful with Material Design. 
 |4| Navigation and app architecture | Learn the best practices of app architecture to build more complex apps. Enhance your users' ability to navigate across, into and back out from the various screens within your app for a consistent and predictable user experience.
