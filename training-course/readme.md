@@ -98,6 +98,12 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
    * Use Database Inspector to test and debug database issues.
    * Use Preference DataStore to store user preferences
 
+| Chapters | Description |
+|-------|-------|
+| Introduction to SQL | Learn how to use SQL to read and manipulate data in a relational database. |
+| Use Room for data persistence | Use the Room library to easily create and use relational databases in an Android app. | 
+| Store and access data using keys with DataStore | Learn how to store simple, key-value pair data with Preferences DataStore in an Android app |
+
 ### Unit 7 :  WorkManager
  * Use Android Jetpack's WorkManager API to schedule necessary background work, such as data backups or fresh content downloads, that keeps running even if the app exits or the device restarts.
    * Define long running tasks that need to run in background work.
@@ -105,6 +111,11 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
    * Create a Worker object and enqueue work.
    * Create constraints on WorkRequests.
    * Use the Background Task Inspector to inspect and debug WorkManager.
+
+| Chapters | Description |
+|-------|-------|
+| Schedule tasks with WorkManager | Learn when and how to use WorkManager, an API that handles background work that needs to run regardless of whether the application process is still running. |
+
 
 ### Unit 8 :  Views and Compose
  * Learn how to use Compose and the older UI toolkit based on Views side-by-side in the same app. In this unit, you will learn interoperability APIs and best practices to add a new feature to an existing app in Views, use an existing library that uses Views, or use a UI component that is not yet available in Compose.
@@ -114,4 +125,8 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
    * Use AndroidView to display views.
    * Add existing View-based UI components in a Compose app.
  
+ | Chapters | Description |
+|-------|-------|
+| Android Views and Compose in Views | Learn the basics of building apps with Android Views and how to add a composable in an app built with Views. |
+| Views in Compose | Learn how to add and use existing Views inside an app built with Jetpack Compose. |
 
