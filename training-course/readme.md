@@ -94,5 +94,5 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
    * Add Navigation component to the app and use it to navigate between fragments.
    * Use AndroidView to display views.
    * Add existing View-based UI components in a Compose app.
-
+ 
 
