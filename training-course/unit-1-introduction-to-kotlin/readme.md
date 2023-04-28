@@ -11,4 +11,4 @@ Build your first Android apps with the Kotlin programming language. Add images a
 |S.No | Chapter | What You'll learn | Video
 |------|------|------|-------|
 |1 | Welcome to Android Basics in Kotlin | Meet the team and learn what you’ll need to begin developing Android apps in Kotlin. | [Watch](https://youtu.be/OpQ3VzzgE0g)
-|2 | Build your 1st Android app in Kotlin | Learn more about the course goals and requirements in this introduction to First Unit | 
+|2 | Build your 1st Android app in Kotlin | Learn more about the course goals and requirements in this introduction to First Unit | [Watch](https://youtu.be/7VG8b7FtTo0)
