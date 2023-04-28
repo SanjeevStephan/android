@@ -23,6 +23,13 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
   * Build an Android app with a simple user interface that displays text and images.
   * Run the app on a device or emulator.
 
+| Chapters | Description |
+|-------|-------|
+| Introduction to Kotlin | Learn introductory programming concepts in Kotlin.|
+| Setup Android Studio | Install and set up Android Studio, create your first project, and run it on a device or emulator. |
+| Build a baisc Layout | Build an Android app with a simple user interface that displays text and images. |
+
+
 2. Building App UI
 * Continue learning the fundamentals of Kotlin, and start building more interactive apps.
   * Use conditionals, function types, classes, and lambda expressions in Kotlin.
@@ -31,6 +38,11 @@ Android Basics with Compose is a self-paced, online course on how to build Andro
   * Create an app that works with data entered by the user.
   * Learn how to use state to display data and reflect the changes automatically when the data gets updated.
   * Write unit tests to test isolated functions.
+
+| Chapters | Description |
+|-------|-------|
+| Kotlin fundamentals | Learn more fundamentals of Kotlin, object-oriented programming, and lambdas. |
+|Add a button to an app | Learn how to respond to a button click in an Android app. |
 
 3. Display lists and use Material Design
 * Build apps that display a list of data and learn how to make your apps more beautiful with Material Design.
