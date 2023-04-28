@@ -23,3 +23,20 @@ Code editors are tools that help you write code, in the same way a word processo
 ### What you need
 * A computer with a modern web browser, such as the latest version of Chrome.
 * Internet access for your computer.
+
+## 2. Run your first program in Kotlin
+In this task, you will use an editor on a website to start programming in the Kotlin language right away.
+
+### Use an interactive code editor
+Instead of installing software on your computer, you can use a web-based tool to create your first program.
+
+1. In your browser, open https://developer.android.com/training/kotlinplayground. This opens a browser-based programming tool.
+2. You should see a page similar to the screenshot below, with a code editor in the middle. 
+<img src="https://developer.android.com/static/codelabs/basic-android-kotlin-training-first-kotlin-program/img/86a7d44a5f1cde95_856.png"/>
+3. This is the program code in the editor:
+
+```
+fun main() {
+    println("Hello, world!")
+}
+```
