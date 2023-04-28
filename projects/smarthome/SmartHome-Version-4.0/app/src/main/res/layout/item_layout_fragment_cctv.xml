@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:background="@drawable/custom_device_button"
+        android:id="@+id/id_edit_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/id_view_cctv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:text="@string/camera_location"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+
+            <ImageView
+                android:id="@+id/id_view_cctv_more_option"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_more_vert_white_24dp" />
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/id_web_view_cctv_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/id_view_cctv_location"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".mode.wifi.AddDeviceActivity"
+    tools:showIn="@layout/activity_add_device"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_device_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+       <ImageView
+        android:id="@+id/id_add_device_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/light_bulb_off"
+        />
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <Spinner
+            android:id="@+id/id_select_new_device_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_device_image"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/id_add_device_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/id_select_new_device_spinner">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/id_input_add_device_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_device_nickname" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/id_add_device_ip_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/id_add_device_nickname">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/id_input_add_device_ip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_device_ip" />
+
+        </android.support.design.widget.TextInputLayout>
+        <Spinner
+            android:id="@+id/id_add_new_relay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_add_device_ip_address"/>
+        <Spinner
+            android:id="@+id/id_add_new_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_add_new_relay"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/id_add_other_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/id_add_new_room">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/id_input_add_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_other_location" />
+
+        <Button
+            android:id="@+id/id_add_new_device_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Device"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"
+            android:onClick="getInputData"
+            android:layout_below="@id/id_add_other_location"
+            android:background="@drawable/custom_device_button"
+            />
+
+
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

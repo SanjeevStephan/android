@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name="title_activity_wi_fi">WiFiActivity</string>
+    <string name="title_activity_add_new_device">Add New WiFi Device</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_device">AddDeviceActivity</string>
+</resources>
