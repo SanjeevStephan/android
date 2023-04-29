@@ -102,5 +102,151 @@ To accomplish this in one function, put two repeat() statements, one for the fla
 7. At the end, print a new line, using `println()`.
 8. In `main()`, remove the two // symbols from the beginning of the line of code for `printCakeCandles()`.
 
+```
+printCakeCandles(age)
+```
+9. Run your code to see the top of the cake and the candles
+
+Solution:
+```
+// This function prints the candles on top of the birthday cake
+fun printCakeCandles(age: Int) {
+    // Print a row of commas (for the candles)
+    print(" ")
+    repeat(age) {
+        print(',')
+    }
+    println() // Empty line
+    
+    // Print a row of vertical bars (for the candle flames)
+    print(" ")
+    repeat(age) {
+        print("|")
+    }
+    println()
+}
+```
+
+#### Create printCakeBottom()
+In this function, you are drawing a cake bottom that is as wide as `age + 2`, and you draw it for a height of a given number of layers.
+```
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
+
+* This means your function needs two arguments, one for the width (age) and one for the height (layers).
+* To print the bottom of the cake, you first repeat the ‘at' @ symbol age + 2 times to print one layer. Then, you repeat printing one layer layers times.
+
+##### Draw the at symbol age+2 times to create a layer
+1. Below the existing functions, create a function printCakeBottom() with two arguments, age and layers, both of type Int.
+2. Inside the function, use a repeat() statement to print one layer of ‘at' @ symbols age + 2 times. Finish by printing an empty line, as shown below.
+
+```
+// This function prints the bottom layers of the birthday cake
+fun printCakeBottom(age: Int, layers: Int) {
+    repeat(age + 2) {
+        print("@")
+    }
+    println()
+}
+```
+3. In main(), remove the two // symbols from the beginning of the line of code for printCakeBottom(age, layers).
+4. Run your code to verify that it prints one line of cake bottom.
+```
+ ,,,,,,,,,,,,,,,,,,,,,,,,
+ ||||||||||||||||||||||||
+==========================
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
+##### Nested repeat() statements
+
+To print multiple identical layers of cake bottom, you could say:
+
+For layer 1 repeat the symbol 12 times: @@@@@@@@@@@@
+
+For layer 2 repeat the symbol 12 times: @@@@@@@@@@@@
+
+For layer 3 repeat the symbol 12 times: @@@@@@@@@@@@
+
+Or you can say this much more concisely as:
+
+Repeat for three layers:
+
+Repeat the symbol 12 times.
+
+@@@@@@@@@@@@
+
+@@@@@@@@@@@@
+
+@@@@@@@@@@@@
+
+> Now, this is something neat you can do with repeat() statements. You can put one repeat() statement inside another repeat() statement. So you could create a repeat() statement within a repeat() statement to print the symbol a certain number of times for a certain number of layers.
+
+##### Use a nested repeat() to print cake layers
+5. Put a second repeat() statement around all of the code inside the function. Repeat this loop layers times.
+6. In main(), remove only the two // from the line of code for printCakeBottom()
+
+``` printCakeBottom(age, layers) ```
+7. Run your code to see the whole cake.
+
+Solution for `printCakeBottom()`.
+```
+// This function prints the bottom layers of the birthday cake
+fun printCakeBottom(age:Int, layers: Int) {
+    // Calculate the number of layers to print
+    val layersToRepeat = layers / 2
+    repeat(layersToRepeat) {
+        // Print a row of @ symbols for each layer
+        val timeToRepeat = age + 2
+        repeat(timeToRepeat) {
+            print("@")
+        }
+        println()
+    }
+}
+```
+Congratulations! You've just finished a pretty complex program with several functions and a nested repeat statement. And your cake will always have the right number of candles!
+
+The final output of your program should be:
+```
+ ,,,,,,,,,,,,,,,,,,,,,,,,
+ ||||||||||||||||||||||||
+==========================
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
+#### You Can Add One More Function 
+To make the cake look nice you can add one more function to display the `{  Happy Birthday, Sanju }` between the layer of the cake such that the output will be:
+```
+@@@@@{  Happy Birthday, Sanju }@@@@@
+```
+Solution :
+```
+// This function prints a birthday message, centered on the age of the person
+fun printBirthDayMsg(age: Int, message: String) {
+    // Calculate the amount of padding needed to center the message
+    val padding = age - message.length
+    val msgLen = message.length
+    val leftPadding = padding / 2
+    val rightPadding = padding - leftPadding
+    
+    // Print the left padding (with @ symbol), the message, and the right padding (with @ symbol)
+    repeat(Math.abs(leftPadding) + 1) {
+        print("@")
+    }
+    print(message)
+    repeat(Math.abs(rightPadding) + 1) {
+        print("@")
+    }
+    println()
+}
+```
+
 ### Explaination
 Overall, [this code](https://github.com/SanjeevStephan/android/blob/master/training-course/101-kotlin-programs/Happy-Birthday-Kotlin-Program/happy-birthday-cake.kt) creates a birthday cake with candles and layers, and prints a centered birthday message on top of the cake. The printBirthDayMsg function calculates the amount of padding needed to center the message based on the person's age, and then prints the message with @ symbols on either side to fill the padding. The printCakeCandles, printCakeTop, and printCakeBottom functions print the different parts of the cake, including candles, the top of the cake, and the bottom layers. The main function calls all of these functions to assemble the cake and message.
