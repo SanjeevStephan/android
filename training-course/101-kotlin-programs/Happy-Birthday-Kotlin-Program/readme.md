@@ -276,7 +276,7 @@ Final Output Should Be :
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ```
 ### Here is the [Complete Kotlin Code ](https://github.com/SanjeevStephan/android/blob/master/training-course/101-kotlin-programs/Happy-Birthday-Kotlin-Program/happy-birthday-cake.kt)
-### Explaination
+### Summary Explaination
 Overall, [this code](https://github.com/SanjeevStephan/android/blob/master/training-course/101-kotlin-programs/Happy-Birthday-Kotlin-Program/happy-birthday-cake.kt) 
 * creates a birthday cake with candles and layers, and prints a centered birthday message on top of the cake. 
 * The `printBirthDayMsg()` function calculates the amount of padding needed to center the message based on the person's age, and then prints the message with `@` symbols on either side to fill the padding. 
