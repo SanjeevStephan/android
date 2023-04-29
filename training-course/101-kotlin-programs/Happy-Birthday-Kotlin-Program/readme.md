@@ -18,3 +18,7 @@
 * You will create a short program that you can use to print birthday messages, a text-based picture of a cake, and a banner.
 ### What you need
 * A computer with internet access and a modern web browser, such as the latest version of Chrome.
+
+
+### Explaination
+Overall, [this code](https://github.com/SanjeevStephan/android/blob/master/training-course/101-kotlin-programs/Happy-Birthday-Kotlin-Program/happy-birthday-cake.kt) creates a birthday cake with candles and layers, and prints a centered birthday message on top of the cake. The printBirthDayMsg function calculates the amount of padding needed to center the message based on the person's age, and then prints the message with @ symbols on either side to fill the padding. The printCakeCandles, printCakeTop, and printCakeBottom functions print the different parts of the cake, including candles, the top of the cake, and the bottom layers. The main function calls all of these functions to assemble the cake and message.
