@@ -21,3 +21,6 @@ Getting Started
 ---------------
 
 1. Download and run the app.
+
+Resources Browsed 
+* [string-resource](https://developer.android.com/guide/topics/resources/string-resource)
