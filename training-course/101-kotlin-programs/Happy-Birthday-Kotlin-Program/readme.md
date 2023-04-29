@@ -2,7 +2,7 @@
 
 ### Set up your starter code
 1. In your browser, open https://developer.android.com/training/kotlinplayground. This opens a browser-based Kotlin programming tool.
-2. In this codelab you will create a short Kotlin program that prints a birthday message with a cake and a birthday banner.
+2. In this codelab you will create a [ short Kotlin program that prints a birthday message with a cake and a birthday banner](https://developer.android.com/codelabs/basic-android-kotlin-training-kotlin-birthday-message?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-kotlin-one%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-training-kotlin-birthday-message#0)
 
 ### Prerequisites
 * How to open and edit code in https://developer.android.com/training/kotlinplayground, a browser-based Kotlin programming tool.
