@@ -294,7 +294,7 @@ Overall, [this code](https://github.com/SanjeevStephan/android/blob/master/train
 * A `String` is text surrounded by quotes, such as "{  Happy Birthday, Sanju }"
 * An `Int` is a whole positive or negative number, such as 0, 23, or -1024.
 * You can pass one or more arguments into a function for the function to use, for example: `fun printCakeBottom(age:Int, layers:Int) {}`
-* Use a `repeat() {}` statement to repeat a set of instructions several times. For example: `repeat (23) { print("%") }` or `repeat (layers) { print("@@@@@@@@@@") }`
+* Use a `repeat() {}` statement to repeat a set of instructions several times. For example: `repeat (23) { print("%") }` or `repeat (layers) { print("@") }`
 * A loop is an instruction to repeat instructions multiple times. A `repeat()` statement is an example of a loop.
 * You can nest loops, that is, put loops within loops. For example, you can create a `repeat()` statement within a `repeat()` statement to print a symbol a number of times for a number of rows, like you did for the cake layers.
 
