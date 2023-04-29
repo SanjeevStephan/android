@@ -265,6 +265,7 @@ fun main() {
 > Here, we reduces the layer of the cake to 4 (two above & two below the BirthdayMessage) and call the function `printBirthDayMsg(age, "{  Happy Birthday, Sanju }")` between the function `printCakeBottom(age, layers)` to print the `{  Happy Birthday, Sanju }` between the layers of the cake.
 
 Final Output Should Be : 
+```
  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
  ||||||||||||||||||||||||||||||||||
 ====================================
@@ -273,6 +274,7 @@ Final Output Should Be :
 @@@@@{  Happy Birthday, Sanju }@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 ### Explaination
 Overall, [this code](https://github.com/SanjeevStephan/android/blob/master/training-course/101-kotlin-programs/Happy-Birthday-Kotlin-Program/happy-birthday-cake.kt) creates a birthday cake with candles and layers, and prints a centered birthday message on top of the cake. The printBirthDayMsg function calculates the amount of padding needed to center the message based on the person's age, and then prints the message with @ symbols on either side to fill the padding. The printCakeCandles, printCakeTop, and printCakeBottom functions print the different parts of the cake, including candles, the top of the cake, and the bottom layers. The main function calls all of these functions to assemble the cake and message.
