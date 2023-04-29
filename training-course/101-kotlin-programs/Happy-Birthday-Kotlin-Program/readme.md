@@ -61,14 +61,46 @@ fun main() {
 #### Create printCakeTop()
 The `printCakeTop()` function to print the top of the cake, a line of equal signs, is almost the same as the printBorder() function you created earlier in this codelab.
 
-` ==========================`
+``` 
+==========================
+```
 
 1. Below the main() function, add a blank line, and then create a function, printCakeTop() that takes one argument, age, of type Int.
 2. Inside, use a repeat() statement to print one equal sign age times plus 2. The extra two equals signs are so that the candles won't fall off the side of the cake.
 3. At the end, when the repeat() is done, print an empty line.
 4. In main(), remove the two // symbols from the beginning of the line of code for printCakeTop(), because the function now exists.
 
-`printCakeTop(age)`
+``` 
+printCakeTop(age) 
+```
+Here is your finished function.
+```
+// This function prints the top of the birthday cake
+fun printCakeTop(age: Int) {
+    // Print a row of equal signs for the top of the cake
+    val timeToRepeat = age + 2
+    repeat(timeToRepeat) {
+        print("=")
+    }
+    println() // Empty line
+}
+```
+5. Run your code to see the top of the cake.
+
+#### Create printCakeCandles()
+Each candle is made up of two symbols: a comma (,) for the flame, and a vertical line (|) for the candle body.
+`,,,,,,,,,,,,,,,,,,,,,,,,`
+
+`||||||||||||||||||||||||`
+To accomplish this in one function, put two repeat() statements, one for the flames and one for the bodies, into your function.
+1. Below the `main()` function and the `printCakeTop()` function, create a new function, `printCakeCandles()` that takes one argument, `age`, of type `Int`.
+2. Inside, use a `repeat()` statement to print one comma , for the flame.
+3. Repeat this `age` times.
+4. At the end, print an empty line.
+5. Add a print statement to print one space for insetting the candles.
+6. Below, repeat the steps to create a second `repeat()` statement to print the candle bodies with a vertical line |.
+7. At the end, print a new line, using `println()`.
+8. In `main()`, remove the two // symbols from the beginning of the line of code for `printCakeCandles()`.
 
 ### Explaination
 Overall, [this code](https://github.com/SanjeevStephan/android/blob/master/training-course/101-kotlin-programs/Happy-Birthday-Kotlin-Program/happy-birthday-cake.kt) creates a birthday cake with candles and layers, and prints a centered birthday message on top of the cake. The printBirthDayMsg function calculates the amount of padding needed to center the message based on the person's age, and then prints the message with @ symbols on either side to fill the padding. The printCakeCandles, printCakeTop, and printCakeBottom functions print the different parts of the cake, including candles, the top of the cake, and the bottom layers. The main function calls all of these functions to assemble the cake and message.
