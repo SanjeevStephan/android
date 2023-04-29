@@ -11,9 +11,9 @@
 * How to use println() to write text to the console of the online Kotlin code editor.
 ### What you will learn
 * How to print more complex text from your program.
-* How to do basic math in Kotlin and store the results in variables for later use.
-* How to create a function to print the same string several times.
-* How to create a loop that prints a text snippet multiple times.
+* [Defining Variable](https://kotlinlang.org/docs/reference/basic-syntax.html#defining-variables) : How to do basic math in Kotlin and store the results in variables for later use.
+* [Defining functions](https://kotlinlang.org/docs/reference/basic-syntax.html#defining-functions) : How to create a function to print the same string several times.
+* [`repat` statement](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/repeat.html) : How to create a loop that prints a text snippet multiple times.
 ### What you will build
 * You will create a short program that you can use to print birthday messages, a text-based picture of a cake, and a banner.
 ### What you need
